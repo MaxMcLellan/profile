@@ -1,0 +1,91 @@
+body {
+  /* background-color: #EAF2EF; */
+  background-image: url(images/simone-hutsch-eXBqaHUt994-unsplash.jpg);
+  background-size: 100%;
+  background-position-y: 2934px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 14px;
+  line-height: 2em;
+  text-transform: lowercase;
+}
+
+h1 {
+  color: #521945;
+  line-height: 2em;
+  font-size: 32px;
+  font-family: 'Archivo', sans-serif;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: 'Archivo', sans-serif;
+  letter-spacing: 4px;
+  font-weight: 50;
+}
+
+a {
+  color: #521945;
+  text-decoration: none;
+}
+
+
+button {
+  border: none;
+  background-color: transparent;
+  size: 300px;
+  padding: 24px, 24px;
+  width: 100px;
+  height: 24px;
+  border-radius: 10px;
+  background-color: #521945;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+button :hover {
+  color: #E6AF2E;
+}
+
+.social-logo {
+  /* display: inline-block; apply on list item */
+  text-decoration: none;
+  /* list-style-type: none; apply on ul parent element*/
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.social-logo :hover {
+  color: #E6AF2E;
+}
+
+ul > li {
+  display: inline-block;
+  max-inline-size: 100%;
+}
+
+ul {
+  padding: 0px;
+}
+
+#avatar-image {
+  border-radius: 50%;
+  max-width: 20%;
+  max-height: 20%;
+  /* text-align: center; */
+}
+
+.card {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#main-card {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
